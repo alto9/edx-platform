@@ -67,7 +67,7 @@ django-mysql==3.9.0       # via -r requirements/edx/base.in
 django-oauth-toolkit==1.3.2  # via -c requirements/edx/../constraints.txt, -r requirements/edx/base.in
 django-object-actions==3.0.1  # via edx-enterprise
 #django-pipeline==1.7.0    # via -c requirements/edx/../constraints.txt, -r requirements/edx/base.in
-git+https://github.com/alto9/django-pipeline.git@1.7.1#egg=django-pipeline # fix for django-pipeline issue in pre 2.0 version
+-e git+https://github.com/alto9/django-pipeline.git@1.7.1#egg=django-pipeline # fix for django-pipeline issue in pre 2.0 version
 django-pyfs==2.2          # via -r requirements/edx/base.in
 git+https://github.com/edx/django-ratelimit-backend.git@v2.0.1a5#egg=django-ratelimit-backend==2.0.1a5  # via -r requirements/edx/github.in
 django-ratelimit==3.0.1   # via -r requirements/edx/base.in
